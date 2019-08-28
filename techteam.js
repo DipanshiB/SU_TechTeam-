@@ -7,7 +7,7 @@
 //   // $('#bg').addClass(".newbg1");
 // })
 $("#first-item").mouseenter(function(){
-  $(this).addClass("font-change");
+  $('#c1').css('color', 'white');
   $('body').addClass("newbg1");
 })
 $("#first-item").mouseleave(function(){
